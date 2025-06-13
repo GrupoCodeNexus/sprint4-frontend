@@ -21,7 +21,7 @@
   --shadow-lg: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-/* ANIMAÇÕES PERSONALIZADAS */
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -65,7 +65,6 @@
   100% { background-position: 0% 50%; }
 }
 
-/* ANIMAÇÕES DE ENTRADA */
 .animate-fade {
   animation: fadeIn 1s ease-out forwards;
 }
@@ -86,7 +85,7 @@
   animation: slideInFromBottom 0.8s ease-out forwards;
 }
 
-/* ANIMAÇÕES CONTÍNUAS */
+
 .animate-pulse {
   animation: pulse 2s infinite ease-in-out;
 }
@@ -95,7 +94,7 @@
   animation: float 3s infinite ease-in-out;
 }
 
-/* ANIMAÇÃO ESPECÍFICA PARA O HERO */
+
 .hero-section {
   background: linear-gradient(-45deg, var(--primary-dark), var(--primary-color), var(--secondary-dark), var(--secondary-color));
   background-size: 400% 400%;
@@ -106,7 +105,7 @@
   overflow: hidden;
 }
 
-/* ANIMAÇÃO PARA BOTÕES */
+
 .btn-animated {
   position: relative;
   overflow: hidden;
@@ -132,7 +131,7 @@
   transform-origin: left;
 }
 
-/* ANIMAÇÃO PARA CARDS */
+
 .card-animated {
   position: relative;
 }
@@ -153,7 +152,7 @@
   transform: translateX(100%);
 }
 
-/* ESTILOS ESPECÍFICOS PARA OS CARDS DE COMPARAÇÃO */
+
 .comparison-card {
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform: translateY(0);
@@ -184,7 +183,6 @@
   transform: translateY(5px);
 }
 
-/* Efeito de brilho ao passar o mouse */
 .comparison-card::after {
   content: '';
   position: absolute;
@@ -205,7 +203,7 @@
   opacity: 1;
 }
 
-/* Estilo específico para o card tradicional */
+
 .traditional-card {
   border-color: var(--danger) !important;
 }
@@ -214,7 +212,7 @@
   background-color: var(--danger) !important;
 }
 
-/* Estilo específico para o card SmartFlow */
+
 .smartflow-card {
   border-color: var(--success) !important;
 }
@@ -223,7 +221,7 @@
   background-color: var(--success) !important;
 }
 
-/* ANIMAÇÃO PARA ÍCONES */
+
 .feature-icon {
   transition: all 0.4s ease;
 }
@@ -232,7 +230,7 @@
   transform: rotate(15deg) scale(1.1);
 }
 
-/* ANIMAÇÃO PARA NAVBAR */
+
 .navbar {
   transition: all 0.4s ease;
 }
@@ -243,7 +241,7 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* ANIMAÇÃO PARA IMAGENS */
+
 .img-zoom {
   transition: transform 0.5s ease;
 }
@@ -252,7 +250,7 @@
   transform: scale(1.03);
 }
 
-/* ANIMAÇÃO DE DIGITAÇÃO */
+
 .typewriter {
   overflow: hidden;
   border-right: 3px solid var(--accent-color);
@@ -272,7 +270,7 @@
   50% { border-color: var(--accent-color); }
 }
 
-/* ANIMAÇÃO PARA LISTAS */
+
 .list-item-animated {
   opacity: 0;
   transform: translateY(20px);
@@ -284,7 +282,7 @@
   transform: translateY(0);
 }
 
-/* ANIMAÇÃO PARA O FOOTER */
+
 footer a {
   position: relative;
 }
@@ -304,14 +302,14 @@ footer a:hover::after {
   width: 100%;
 }
 
-/* ATRASOS PARA ANIMAÇÕES EM SEQUÊNCIA */
+
 .delay-1 { animation-delay: 0.2s; }
 .delay-2 { animation-delay: 0.4s; }
 .delay-3 { animation-delay: 0.6s; }
 .delay-4 { animation-delay: 0.8s; }
 .delay-5 { animation-delay: 1s; }
 
-/* ESTILOS GERAIS */
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: var(--text-color);
@@ -335,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-/* Navegação */
+
 .navbar {
   background-color: var(--primary-color) !important;
   box-shadow: var(--shadow-sm);
@@ -358,7 +356,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--accent-color) !important;
 }
 
-/* Cards */
+
 .card {
   border: none;
   border-radius: 0.5rem;
@@ -382,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none;
 }
 
-/* Botões */
+
 .btn {
   font-weight: 600;
   padding: 0.75rem 1.75rem;
@@ -422,7 +420,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--light-color);
 }
 
-/* Lista de Features */
+
 .features-list .d-flex {
   padding: 0.75rem;
   border-radius: 0.5rem;
@@ -433,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(10, 147, 150, 0.05);
 }
 
-/* Footer */
+
 footer {
   background-color: var(--dark-color);
 }
@@ -469,7 +467,7 @@ footer a:hover {
   color: var(--dark-color) !important;
 }
 
-/* Ícones */
+
 .icon-danger {
   color: var(--danger);
   font-size: 1.5rem;
@@ -510,7 +508,7 @@ footer a:hover {
   color: var(--success);
 }
 
-/* Responsividade */
+
 @media (max-width: 1199.98px) {
   .hero-section {
     padding: 6rem 0 4rem;
