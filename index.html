@@ -9,33 +9,35 @@
   
   <title>SmartFlow | Gestão Inteligente de Medicamentos Hospitalares</title>
   
+  <!-- Bootstrap CSS -->
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"></noscript>
   
+  <!-- Font Awesome -->
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
         crossorigin="anonymous" referrerpolicy="no-referrer" />
   
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" 
         rel="stylesheet">
   
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="./src/CSS/style.css" media="print" onload="this.media='all'">
   
-  <!--AOS Animation-->
+  <!-- AOS Animation -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
   
-  
-  
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
     <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="#" aria-label="SmartFlow - Página Inicial">
-        <img src="./src/img/logoCODENEXUS.png" alt="Logo SmartFlow" height="40" class="me-2" loading="lazy">
+      <a class="navbar-brand d-flex align-items-center animate-slide-left" href="#" aria-label="SmartFlow - Página Inicial">
+        <img src="./src/img/logoCODENEXUS.png" alt="Logo SmartFlow" height="40" class="me-2 img-zoom" loading="lazy">
         <span class="fw-bold">SmartFlow</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
@@ -44,11 +46,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#inicio" aria-current="page">Início</a></li>
-          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="#problema">Problema</a></li>
-          <li class="nav-item"><a class="nav-link" href="#solucao">Solução</a></li>
-          <li class="nav-item"><a class="nav-link" href="#impactos">Impactos</a></li>
+          <li class="nav-item"><a class="nav-link animate-fade delay-1" href="#inicio" aria-current="page">Início</a></li>
+          <li class="nav-item"><a class="nav-link animate-fade delay-2" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link animate-fade delay-3" href="#problema">Problema</a></li>
+          <li class="nav-item"><a class="nav-link animate-fade delay-4" href="#solucao">Solução</a></li>
+          <li class="nav-item"><a class="nav-link animate-fade delay-5" href="#sistemas">Sistemas</a></li>
+          <li class="nav-item"><a class="nav-link animate-fade delay-5" href="#impactos">Impactos</a></li>
         </ul>
       </div>
     </div>
@@ -60,21 +63,21 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-1 order-2" data-aos="fade-right">
-            <h1 class="display-4 fw-bold mb-4 text-white">Gestão Inteligente de Medicamentos</h1>
-            <p class="lead mb-4">Solução completa para fluxo seguro de medicamentos em ambientes hospitalares com tecnologia de ponta</p>
-            <div class="d-flex flex-wrap gap-2">
-              <a href="https://youtube.com/shorts/KnQHdxY6k8I?si=lb0PCThH98pckPQQ" class="btn btn-accent btn-lg px-4" 
+            <h1 class="display-4 fw-bold mb-4 text-white animate-slide-left">Gestão Inteligente de Medicamentos</h1>
+            <p class="lead mb-4 animate-slide-left delay-1">Solução completa para fluxo seguro de medicamentos em ambientes hospitalares com tecnologia de ponta</p>
+            <div class="d-flex flex-wrap gap-2 animate-slide-left delay-2">
+              <a href="https://youtu.be/HRn_Xj3Sltk?si=USi9dNoibFzS21hk" class="btn btn-accent btn-lg px-4 btn-animated" 
                  target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-play-circle me-2"></i>Demonstração
               </a>
-              <a href="#solucao" class="btn btn-outline-light btn-lg px-4">
+              <a href="#solucao" class="btn btn-outline-light btn-lg px-4 btn-animated">
                 <i class="fas fa-info-circle me-2"></i>Saiba Mais
               </a>
             </div>
           </div>
           <div class="col-lg-6 order-lg-2 order-1 mb-4 mb-lg-0" data-aos="fade-left">
-            <img src="./src/img/Sistema.png" alt="Interface do Sistema SmartFlow" 
-                 class="img-fluid rounded-3 shadow" loading="lazy" width="600" height="400">
+            <img src="./src/img/Smart-flow.jpeg" alt="Interface do Sistema SmartFlow" 
+                 class="img-fluid rounded-3 shadow img-zoom animate-float" loading="lazy" width="600" height="400">
           </div>
         </div>
       </div>
@@ -84,44 +87,44 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-lg-8 text-center" data-aos="zoom-in">
-            <h2 class="display-5 fw-bold mb-3">Sobre o SmartFlow</h2>
-            <p class="lead">O SmartFlow é um armário inteligente desenvolvido para garantir o controle e segurança no armazenamento de medicamentos. Nossa solução visa resolver problemas críticos relacionados ao acesso descontrolado e à falta de rastreabilidade no manuseio de medicamentos.</p>
+            <h2 class="display-5 fw-bold mb-3 animate-slide-top">Sobre o SmartFlow</h2>
+            <p class="lead animate-slide-top delay-1">O SmartFlow é um gerenciador de acessos tecnológico que oferece controle e segurança no armazenamento de medicamentos em ambientes hospitalares.</p>
           </div>
         </div>
         
         <div class="row g-4">
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="card h-100 border-0 shadow-sm card-hover">
+            <div class="card h-100 border-0 shadow-sm card-hover card-animated">
               <div class="card-body text-center p-4">
-                <div class="feature-icon text-primary">
-                  <i class="fas fa-shield-alt fa-2x mb-3"></i>
+                <div class="feature-icon text-primary animate-pulse">
+                  <i class="fas fa-network-wired fa-2x mb-3"></i>
                 </div>
-                <h3 class="h5 card-title">Segurança</h3>
-                <p class="card-text">Controle de acesso garantindo que apenas pessoal autorizado tenha acesso aos medicamentos.</p>
+                <h3 class="h5 card-title">Integração IoT</h3>
+                <p class="card-text">Sistema integrado com cartões, ESP32 e Servo Motor para controle de acesso físico.</p>
               </div>
             </div>
           </div>
           
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="card h-100 border-0 shadow-sm card-hover">
+            <div class="card h-100 border-0 shadow-sm card-hover card-animated">
               <div class="card-body text-center p-4">
-                <div class="feature-icon text-primary">
-                  <i class="fas fa-clipboard-check fa-2x mb-3"></i>
+                <div class="feature-icon text-primary animate-pulse delay-1">
+                  <i class="fas fa-database fa-2x mb-3"></i>
                 </div>
-                <h3 class="h5 card-title">Rastreabilidade</h3>
-                <p class="card-text">Registro completo de todas as movimentações com data, hora e responsável.</p>
+                <h3 class="h5 card-title">Banco de Dados</h3>
+                <p class="card-text">Compatível com bancos de dados existentes para funcionamento integrado.</p>
               </div>
             </div>
           </div>
           
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card h-100 border-0 shadow-sm card-hover">
+            <div class="card h-100 border-0 shadow-sm card-hover card-animated">
               <div class="card-body text-center p-4">
-                <div class="feature-icon text-primary">
-                  <i class="fas fa-chart-line fa-2x mb-3"></i>
+                <div class="feature-icon text-primary animate-pulse delay-2">
+                  <i class="fas fa-shield-alt fa-2x mb-3"></i>
                 </div>
-                <h3 class="h5 card-title">Eficiência</h3>
-                <p class="card-text">Redução de erros e aumento da produtividade da equipe médica e farmacêutica.</p>
+                <h3 class="h5 card-title">Controle de Acesso</h3>
+                <p class="card-text">Sistema seguro que registra todas as movimentações com data, hora e responsável.</p>
               </div>
             </div>
           </div>
@@ -133,16 +136,16 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-lg-8 text-center" data-aos="zoom-in">
-            <h2 class="display-5 fw-bold mb-3">O Problema Atual</h2>
-            <p class="lead">Os sistemas tradicionais de gestão de medicamentos apresentam falhas críticas que comprometem a segurança e eficiência nos ambientes hospitalares.</p>
+            <h2 class="display-5 fw-bold mb-3 animate-slide-top">O Problema Atual</h2>
+            <p class="lead animate-slide-top delay-1">Os sistemas tradicionais de gestão de medicamentos apresentam falhas críticas que comprometem a segurança e eficiência nos ambientes hospitalares.</p>
           </div>
         </div>
         
         <div class="row g-4">
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="card h-100 border-0 shadow-sm card-hover">
+            <div class="card h-100 border-0 shadow-sm card-hover card-animated">
               <div class="card-body text-center p-4">
-                <div class="feature-icon text-danger">
+                <div class="feature-icon text-danger animate-pulse">
                   <i class="fas fa-exclamation-triangle fa-2x mb-3"></i>
                 </div>
                 <h3 class="h5 card-title text-danger">Acesso descontrolado</h3>
@@ -152,9 +155,9 @@
           </div>
           
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="card h-100 border-0 shadow-sm card-hover">
+            <div class="card h-100 border-0 shadow-sm card-hover card-animated">
               <div class="card-body text-center p-4">
-                <div class="feature-icon text-danger">
+                <div class="feature-icon text-danger animate-pulse delay-1">
                   <i class="fas fa-unlock-alt fa-2x mb-3"></i>
                 </div>
                 <h3 class="h5 card-title text-danger">Falta de segurança</h3>
@@ -164,9 +167,9 @@
           </div>
           
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card h-100 border-0 shadow-sm card-hover">
+            <div class="card h-100 border-0 shadow-sm card-hover card-animated">
               <div class="card-body text-center p-4">
-                <div class="feature-icon text-danger">
+                <div class="feature-icon text-danger animate-pulse delay-2">
                   <i class="fas fa-search-minus fa-2x mb-3"></i>
                 </div>
                 <h3 class="h5 card-title text-danger">Falta de rastreabilidade</h3>
@@ -182,18 +185,18 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-lg-8 text-center" data-aos="zoom-in">
-            <h2 class="display-5 fw-bold mb-3">Nossa Solução</h2>
-            <p class="lead">O SmartFlow oferece um sistema de armazenamento seguro que permite o controle rigoroso de acesso aos medicamentos e o registro de todas as retiradas.</p>
+            <h2 class="display-5 fw-bold mb-3 animate-slide-top">Nossa Solução</h2>
+            <p class="lead animate-slide-top delay-1">O SmartFlow oferece um sistema de armazenamento seguro que permite o controle rigoroso de acesso aos medicamentos e o registro de todas as retiradas.</p>
           </div>
         </div>
         
         <div class="row align-items-center">
           <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
-            <h3 class="mb-4">Sistema SmartFlow</h3>
-            <p class="mb-4">Solução completa de gestão de medicamentos para ambientes hospitalares, proporcionando segurança, controle e eficiência operacional.</p>
+            <h3 class="mb-4 animate-slide-left">Sistema SmartFlow</h3>
+            <p class="mb-4 animate-slide-left delay-1">Solução completa de gestão de medicamentos para ambientes hospitalares, proporcionando segurança, controle e eficiência operacional.</p>
             
             <div class="features-list">
-              <div class="d-flex mb-3">
+              <div class="d-flex mb-3 list-item-animated">
                 <div class="feature-icon-small text-success me-3">
                   <i class="fas fa-check-circle"></i>
                 </div>
@@ -203,7 +206,7 @@
                 </div>
               </div>
               
-              <div class="d-flex mb-3">
+              <div class="d-flex mb-3 list-item-animated">
                 <div class="feature-icon-small text-success me-3">
                   <i class="fas fa-check-circle"></i>
                 </div>
@@ -213,37 +216,37 @@
                 </div>
               </div>
               
-              <div class="d-flex mb-3">
+              <div class="d-flex mb-3 list-item-animated">
                 <div class="feature-icon-small text-success me-3">
                   <i class="fas fa-check-circle"></i>
                 </div>
                 <div>
-                  <h4 class="h6 mb-1">Alertas inteligentes</h4>
-                  <p class="small text-muted mb-0">Notificações sobre medicamentos próximos do vencimento</p>
+                  <h4 class="h6 mb-1">Integração IoT</h4>
+                  <p class="small text-muted mb-0">Compatível com dispositivos como cartões, ESP32 e Servo Motor</p>
                 </div>
               </div>
               
-              <div class="d-flex">
+              <div class="d-flex list-item-animated">
                 <div class="feature-icon-small text-success me-3">
                   <i class="fas fa-check-circle"></i>
                 </div>
                 <div>
-                  <h4 class="h6 mb-1">Integração completa</h4>
-                  <p class="small text-muted mb-0">Conectividade com sistemas hospitalares existentes</p>
+                  <h4 class="h6 mb-1">Banco de Dados</h4>
+                  <p class="small text-muted mb-0">Pode utilizar bancos de dados existentes para integração</p>
                 </div>
               </div>
             </div>
           </div>
           
           <div class="col-lg-6" data-aos="fade-left">
-            <div class="card border-0 shadow-lg">
-              <img src="./src/img/Sistema.png" class="card-img-top" alt="Dashboard do Sistema SmartFlow" loading="lazy" width="600" height="400">
+            <div class="card border-0 shadow-lg card-animated animate-slide-right delay-2">
+              <img src="./src/img/dashboard.png" class="card-img-top img-zoom" alt="Dashboard do Sistema SmartFlow" loading="lazy" width="600" height="400">
               <div class="card-body">
                 <h5 class="card-title">Interface Intuitiva</h5>
                 <p class="card-text">Dashboard completo para gestão e monitoramento em tempo real.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="badge bg-primary">Em tempo real</div>
-                  <div class="badge bg-success">Cloud-based</div>
+                  <div class="badge bg-success">IoT Integration</div>
                   <div class="badge bg-info">Responsivo</div>
                 </div>
               </div>
@@ -253,39 +256,134 @@
       </div>
     </section>
 
-    
-    <section id="impactos" class="py-5">
+    <section id="sistemas" class="py-5">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-lg-8 text-center" data-aos="zoom-in">
-            <h2 class="display-5 fw-bold mb-3">Comparação: Método Tradicional vs SmartFlow</h2>
-            <p class="lead">Veja como nossa solução transforma a gestão de medicamentos em ambientes hospitalares</p>
+            <h2 class="display-5 fw-bold mb-3 animate-slide-top">Nossos Sistemas Integrados</h2>
+            <p class="lead animate-slide-top delay-1">O SmartFlow conta com dois sistemas especializados para atender diferentes necessidades hospitalares</p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="card h-100 border-primary card-animated">
+              <div class="card-header bg-primary text-white">
+                <h3 class="h4 mb-0"><i class="fas fa-user-nurse me-2"></i> Sistema para Enfermeiras</h3>
+              </div>
+              <div class="card-body">
+                <h4 class="h5 mb-3">Automatização do Carrinho de Emergência</h4>
+                <ul class="list-unstyled">
+                  <li class="mb-3 d-flex list-item-animated">
+                    <span class="icon-primary me-3"><i class="fas fa-check-circle"></i></span>
+                    <div>
+                      <p class="mb-0">Registro automático de baixas de itens utilizados na emergência</p>
+                    </div>
+                  </li>
+                  <li class="mb-3 d-flex list-item-animated">
+                    <span class="icon-primary me-3"><i class="fas fa-check-circle"></i></span>
+                    <div>
+                      <p class="mb-0">Identificação de quais itens e qual paciente usou esses itens</p>
+                    </div>
+                  </li>
+                  <li class="mb-3 d-flex list-item-animated">
+                    <span class="icon-primary me-3"><i class="fas fa-check-circle"></i></span>
+                    <div>
+                      <p class="mb-0">Histórico completo com possibilidade de edição ou remoção</p>
+                    </div>
+                  </li>
+                  <li class="d-flex list-item-animated">
+                    <span class="icon-primary me-3"><i class="fas fa-check-circle"></i></span>
+                    <div>
+                      <p class="mb-0">Geração de relatórios das baixas realizadas</p>
+                    </div>
+                  </li>
+                </ul>
+                <div class="mt-4 p-3 bg-light rounded animate-fade delay-3">
+                  <h5 class="h6 mb-2 text-primary">Benefícios:</h5>
+                  <p class="small mb-0">Acelera a checagem de medicamentos, proporciona maior controle de acesso ao carrinho e rastreamento completo de itens utilizados.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="card h-100 border-success card-animated">
+              <div class="card-header bg-success text-white">
+                <h3 class="h4 mb-0"><i class="fas fa-pills me-2"></i> Sistema para Farmácia</h3>
+              </div>
+              <div class="card-body">
+                <h4 class="h5 mb-3">Monitoramento Inteligente de Carrinhos</h4>
+                <p class="mb-3">Sistema de cores para status dos carrinhos:</p>
+                <ul class="list-unstyled">
+                  <li class="mb-3 d-flex list-item-animated">
+                    <span class="icon-danger me-3"><i class="fas fa-square text-danger"></i></span>
+                    <div>
+                      <p class="mb-0"><strong>Vermelho:</strong> Carrinho aberto</p>
+                    </div>
+                  </li>
+                  <li class="mb-3 d-flex list-item-animated">
+                    <span class="icon-warning me-3"><i class="fas fa-square text-warning"></i></span>
+                    <div>
+                      <p class="mb-0"><strong>Amarelo:</strong> Carrinho fechado mas não totalmente abastecido</p>
+                    </div>
+                  </li>
+                  <li class="mb-3 d-flex list-item-animated">
+                    <span class="icon-success me-3"><i class="fas fa-square text-success"></i></span>
+                    <div>
+                      <p class="mb-0"><strong>Verde:</strong> Carrinho fechado e totalmente abastecido</p>
+                    </div>
+                  </li>
+                  <li class="d-flex list-item-animated">
+                    <span class="icon-secondary me-3"><i class="fas fa-square text-secondary"></i></span>
+                    <div>
+                      <p class="mb-0"><strong>Cinza:</strong> Carrinho ainda não cadastrado</p>
+                    </div>
+                  </li>
+                </ul>
+                <div class="mt-4 p-3 bg-light rounded animate-fade delay-4">
+                  <h5 class="h6 mb-2 text-success">Benefícios:</h5>
+                  <p class="small mb-0">Monitoramento em tempo real com informações precisas (N° do carrinho e andar), gerando insights valiosos para tomada de decisão estratégica na farmácia central.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="impactos" class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-8 text-center" data-aos="zoom-in">
+            <h2 class="display-5 fw-bold mb-3 animate-slide-top">Comparação: Método Tradicional vs SmartFlow</h2>
+            <p class="lead animate-slide-top delay-1">Veja como nossa solução transforma a gestão de medicamentos em ambientes hospitalares</p>
           </div>
         </div>
         
         <div class="row g-4">
           <div class="col-md-6" data-aos="fade-right">
-            <div class="card h-100 border-danger impact-card">
-              <div class="card-header bg-danger text-white">
+            <div class="card h-100 comparison-card traditional-card">
+              <div class="card-header text-white">
                 <h3 class="h4 mb-0"><i class="fas fa-exclamation-triangle me-2"></i> Método Tradicional</h3>
               </div>
               <div class="card-body">
                 <ul class="list-unstyled">
-                  <li class="mb-3 d-flex">
+                  <li class="mb-3 d-flex list-item-animated">
                     <span class="icon-danger me-3"><i class="fas fa-clock"></i></span>
                     <div>
                       <h4 class="h6 mb-1">Processos manuais</h4>
                       <p class="small mb-0">Tempo gasto com planilhas e registros manuais</p>
                     </div>
                   </li>
-                  <li class="mb-3 d-flex">
+                  <li class="mb-3 d-flex list-item-animated">
                     <span class="icon-danger me-3"><i class="fas fa-user-shield"></i></span>
                     <div>
                       <h4 class="h6 mb-1">Controle de acesso limitado</h4>
                       <p class="small mb-0">Dificuldade em restringir áreas sensíveis</p>
                     </div>
                   </li>
-                  <li class="d-flex">
+                  <li class="d-flex list-item-animated">
                     <span class="icon-danger me-3"><i class="fas fa-search"></i></span>
                     <div>
                       <h4 class="h6 mb-1">Rastreamento incompleto</h4>
@@ -298,38 +396,45 @@
           </div>
           
           <div class="col-md-6" data-aos="fade-left">
-            <div class="card h-100 border-success impact-card">
-              <div class="card-header bg-success text-white">
+            <div class="card h-100 comparison-card smartflow-card">
+              <div class="card-header text-white">
                 <h3 class="h4 mb-0"><i class="fas fa-check-circle me-2"></i> SmartFlow</h3>
               </div>
               <div class="card-body">
                 <ul class="list-unstyled">
-                  <li class="mb-3 d-flex">
+                  <li class="mb-3 d-flex list-item-animated">
                     <span class="icon-success me-3"><i class="fas fa-bolt"></i></span>
                     <div>
                       <h4 class="h6 mb-1">Automatização total</h4>
                       <p class="small mb-0">Redução significativa no tempo de gestão</p>
                     </div>
                   </li>
-                  <li class="mb-3 d-flex">
+                  <li class="mb-3 d-flex list-item-animated">
                     <span class="icon-success me-3"><i class="fas fa-fingerprint"></i></span>
                     <div>
                       <h4 class="h6 mb-1">Controle de acesso rigoroso</h4>
                       <p class="small mb-0">Credenciais individuais para cada profissional</p>
                     </div>
                   </li>
-                  <li class="mb-3 d-flex">
+                  <li class="mb-3 d-flex list-item-animated">
                     <span class="icon-success me-3"><i class="fas fa-history"></i></span>
                     <div>
                       <h4 class="h6 mb-1">Registro completo</h4>
                       <p class="small mb-0">Histórico detalhado de todas as movimentações</p>
                     </div>
                   </li>
-                  <li class="d-flex">
+                  <li class="mb-3 d-flex list-item-animated">
+                    <span class="icon-success me-3"><i class="fas fa-microchip"></i></span>
+                    <div>
+                      <h4 class="h6 mb-1">Integração IoT</h4>
+                      <p class="small mb-0">Sistema físico conectado com cartões, ESP32 e Servo Motor</p>
+                    </div>
+                  </li>
+                  <li class="d-flex list-item-animated">
                     <span class="icon-success me-3"><i class="fas fa-bell"></i></span>
                     <div>
-                      <h4 class="h6 mb-1">Alertas inteligentes</h4>
-                      <p class="small mb-0">Avisos sobre validade e necessidade de reposição</p>
+                      <h4 class="h6 mb-1">Monitoramento em tempo real</h4>
+                      <p class="small mb-0">Sistema de cores para status dos carrinhos de emergência</p>
                     </div>
                   </li>
                 </ul>
@@ -341,11 +446,10 @@
     </section>
   </main>
 
-  
   <footer class="bg-dark text-white py-5">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 mb-4 mb-lg-0">
+        <div class="col-lg-4 mb-4 mb-lg-0 animate-slide-left">
           <h3 class="h5 mb-3">SmartFlow</h3>
           <p>Soluções inteligentes para gestão de medicamentos em ambientes de saúde.</p>
           <div class="social-icons mt-3">
@@ -356,17 +460,17 @@
           </div>
         </div>
         
-        <div class="col-lg-4 mb-4 mb-lg-0">
+        <div class="col-lg-4 mb-4 mb-lg-0 animate-slide-top delay-1">
           <h3 class="h5 mb-3">Links Rápidos</h3>
           <ul class="list-unstyled">
             <li class="mb-2"><a href="#sobre" class="text-white-50">Sobre Nós</a></li>
             <li class="mb-2"><a href="#solucao" class="text-white-50">Nossa Solução</a></li>
-            <li class="mb-2"><a href="#impactos" class="text-white-50">Impactos</a></li>
+            <li class="mb-2"><a href="#sistemas" class="text-white-50">Nossos Sistemas</a></li>
             <li><a href="#" class="text-white-50">Política de Privacidade</a></li>
           </ul>
         </div>
         
-        <div class="col-lg-4">
+        <div class="col-lg-4 animate-slide-right delay-2">
           <h3 class="h5 mb-3">Contato</h3>
           <ul class="list-unstyled">
             <li class="mb-2"><i class="fas fa-envelope me-2"></i> contato@smartflow.com.br</li>
@@ -379,14 +483,11 @@
       
       <hr class="my-4 bg-secondary">
       
-      <div class="text-center pt-2">
+      <div class="text-center pt-2 animate-fade delay-3">
         <p class="small mb-0">&copy; 2025 SmartFlow. Todos os direitos reservados.</p>
       </div>
     </div>
   </footer>
-
-  
-
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" 
@@ -396,13 +497,52 @@
   <!-- AOS Animation -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
+    // Inicializa AOS
     AOS.init({
       duration: 800,
       easing: 'ease-in-out',
       once: true
     });
+    
+    // Animação da navbar ao rolar
+    window.addEventListener('scroll', function() {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+    
+    // Animação de itens de lista sequencial
+    const animateListItems = () => {
+      const listItems = document.querySelectorAll('.list-item-animated');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+            setTimeout(() => {
+              entry.target.classList.add('show');
+            }, index * 100);
+          }
+        });
+      }, { threshold: 0.1 });
+    
+      listItems.forEach(item => observer.observe(item));
+    };
+    
+    // Executa quando o DOM estiver carregado
+    document.addEventListener('DOMContentLoaded', () => {
+      animateListItems();
+      
+      // Adiciona classe de animação para elementos com atraso
+      const delayedElements = document.querySelectorAll('[class*="delay-"]');
+      delayedElements.forEach(el => {
+        const delay = el.className.match(/delay-(\d)/);
+        if (delay) {
+          el.style.animationDelay = `${delay[1] * 0.2}s`;
+        }
+      });
+    });
   </script>
-  
-
 </body>
 </html>
