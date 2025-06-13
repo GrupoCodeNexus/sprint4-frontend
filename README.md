@@ -1,12 +1,15 @@
 # Sprint 4 | SmartFlow | Challenge Hospital Infantil Sabará
 
-## ✅ Resumo Geral do Sistema
+## ✅ Resumo Geral da Solução
 
 - 🔗 Integração com IoT (ESP32 + RFID + Servo + LED)
 - 🧠 Cadastro de Cartões RFID Autorizados:
 - 📄 Geração e Download de Relatório
 - ⚡ Alerta em Tempo Real no Navegador
 - 🧑‍⚕️ Interface Simples e Clara para Enfermeiras
+
+## Objetivo
+- Divulgação da nossa solução
 
 ## Links úteis
 - Link para o vídeo pitch da solução: <a href="">Clique aqui</a>
