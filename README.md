@@ -12,6 +12,7 @@
 - Divulgação da nossa solução
 
 ## Links úteis
+- Link para acesso do repositório: <a href="https://github.com/GrupoCodeNexus/sprint4-frontend/tree/main">Clique aqui</a>
 - Link para o vídeo  da solução: <a href="https://www.youtube.com/watch?v=HRn_Xj3Sltk">Clique aqui</a>
 - Para uma explicação mais técnica, confira o pitch de python: <a href="https://www.youtube.com/watch?v=0GjBcsHMnXQ">Clique aqui</a>
 
